@@ -57,6 +57,7 @@ export interface EncodedTransaction {
 
 export interface Logs {
     fromBlock?: number;
+    toBlock?: number | string;
     address?: string;
     topics?: Array<string | string[]>;
 }
